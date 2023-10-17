@@ -12,7 +12,8 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
-  */
+  -->  Estrella con E mayúscula
+ */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)

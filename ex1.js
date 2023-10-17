@@ -8,5 +8,5 @@ let peces = ["Dory", "Nemo"];
 let otrosPeces = ["Pinky", "Boby"];
 
 // Cambiar SOLAMENTE las dos siguientes líneas:
-console.log(peces);
-console.log(otrosPeces);
+console.log(peces[0]);
+console.log(otrosPeces[1]);

@@ -6,7 +6,7 @@ function existePez(listaPeces, pezBuscado) {
   let pezEncontrado = false;
   let i = 0;
 
-  while (!pezEncontrado && i < listaPeces.length - 1) {
+  while (!pezEncontrado && i < listaPeces.length) {
     pezEncontrado = listaPeces[i] == pezBuscado;
     i++;
   }
@@ -14,10 +14,10 @@ function existePez(listaPeces, pezBuscado) {
   return pezEncontrado;
 }
 
-let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];
-let he_encontrado_al_pez = existePez(muchos_peces, "Estrella");
+let muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
+let heEncontradoAlPez = existePez(muchosPeces, "Estrella");
 
-console.log("He encontrado al pez?: " + he_encontrado_al_pez);
+console.log("He encontrado al pez?: " + heEncontradoAlPez);
 
 /**
  * Ejecuta el código.
